@@ -48,7 +48,7 @@ Checkbutton(master, text = "Penguin", variable = p6Var, fg="#A5BE00",bg="#427AA1
 efirstName.grid(row = 1, column = 1, pady = 2)
 elastName.grid(row = 2, column =1, pady = 2)
 euserName.grid(row = 3, column = 1, pady = 2)
-
+"""
 
 image1 = PhotoImage(file = "Cat1.png")
 image1 = image1.subsample(4,4);
@@ -90,7 +90,7 @@ image6 = image6.subsample(2,2)
 profile6 = Label(master, image = image6)
 profile6.grid(row = 11, column = 1, pady =2)
 profile6.image = image6
-
+"""
 
 
 
