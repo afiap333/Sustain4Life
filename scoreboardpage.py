@@ -1,0 +1,11 @@
+from tkinter import *
+tk = Tk()
+tk.geometry("700x1000")
+frame = Frame(tk, bg="#064789",width=700,height=1000)
+frame.place(x=0,y=0)
+bg=PhotoImage(file="Add a heading (7).png")
+image=Label(tk,image=bg)
+image.place(x=0,y=350)
+title = Label(frame, text="Leadership board!", font=("Franklin Gothic Demi Cond",60),fg="white",bg="#064789")
+title.place(x=350,y=100,anchor="center")
+tk.mainloop()
